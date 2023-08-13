@@ -14,7 +14,7 @@ function App() {
     signInWithPopup(auth,googleProvider)
     .then((a) => {
       console.log("Logged in");
-      console.log(a);
+      
       navigate('/home');
     })
     .catch((err) => console.log(err));
